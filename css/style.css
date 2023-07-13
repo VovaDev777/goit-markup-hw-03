@@ -2,8 +2,6 @@ body {
     font-family: Roboto, sans-serif;
     background-color: #ffffff;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 1.5;
     color: #434455;
 }
 :root {
@@ -13,8 +11,15 @@ a {
     text-decoration: none;
     
 }
-ul {
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol{
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 h1 {
     color: #FFF;
@@ -24,6 +29,26 @@ h1 {
     font-weight: 700;
     letter-spacing: 0.02em;
     line-height: 1.07;
+}
+.container { 
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 156px;
+margin-right: 156px;
+border: 1px solid red;
+}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 .work {
     color:  #2E2F42;
@@ -115,7 +140,13 @@ footer {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #4D5AE5;
+    padding: 16px 32px;
+    border-radius: 4px;
+background: var(--iris, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+margin: 0 auto;
+margin-top: 48px;
+display: flex;
 }
 .order-button:hover,
 .order-button:focus {
@@ -124,6 +155,7 @@ footer {
 }
 .button-section {
     background-color: #2E2F42;
+    /* width: 1440px; */
 }
 .footer-text {
     color: #F4F4FD
@@ -189,6 +221,7 @@ footer {
 }
 .header-adress {
     font-style: normal;
+    
 }
 .header-nav {
     font-weight: 500;
@@ -214,4 +247,53 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 332px;
+}
+.list {
+    display: flex;
+    gap: 40px;
+
+}
+.header {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+.header-navigation {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.address-list {
+    gap: 40px;
+}
+.container-button {
+    width: 1440px;
+    height: 660px;
+}
+.solution {
+    width: 496px;
+    margin: 0 auto;
+    padding-top: 188px;
+}
+.container-work {
+    padding-top: 120px;
+    display: flex;
+}
+.work-item {
+    width: 264px;
+}
+.list-work {
+    display: flex;
+    gap: 28px;
+}
+.list-text {
+    padding-top: 8px;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
