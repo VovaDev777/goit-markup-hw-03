@@ -1,0 +1,217 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5;
+    color: #434455;
+}
+:root {
+    --primary-black-color: #2e2f42;
+}
+a {
+    text-decoration: none;
+    
+}
+ul {
+    list-style-type: none;
+}
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+}
+.work {
+    color:  #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+. {
+    color:  #2E2F42;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+p {
+    color:  #434455;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+
+}
+footer {
+    background-color: #2E2F42;
+}
+.first-logo-word {
+    color:#4D5AE5;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none
+}
+.second-logo-word {
+    color: #2E2F42;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none
+}
+.second-logo-word-foot {
+    color: #f4f4fd;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none
+}
+.link-word {
+    color: #2E2F42;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+    text-decoration:none
+}
+.link-word:hover,
+.link-word:focus {
+    color: #404bbf;
+}
+.list-adress {
+    color: #434455;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    line-height: 24px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+.list-adress:hover,
+.list-adress:focus {
+    color: #404bbf;
+}
+.order-button {
+    color:  #FFF;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+}
+.order-button:hover,
+.order-button:focus {
+    background-color:  #404BBF;
+    cursor: pointer;
+}
+.button-section {
+    background-color: #2E2F42;
+}
+.footer-text {
+    color: #F4F4FD
+}
+.portfolio-menu {
+    color:  #4D5AE5;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+.people-list {
+    background-color: #F4F4FD;
+}
+.list-work {
+    background-color: #FFFFFF;
+}
+.names-worker {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.worker-description {
+    color:  #434455;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+.order-button-portfolio {
+    color:  #4d5ae5;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+}
+.order-button-portfolio:hover,
+.order-button-portfolio:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.image-list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.photo-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.photo-text {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-adress {
+    font-style: normal;
+}
+.header-nav {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.header-nav:hover,
+.header-nav:focus {
+    color: #404bbf;
+}
+.list-menu {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
+}
+.list-menu:hover,
+.list-menu:focus {
+    color: #404bbf;
+}
+.list-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
