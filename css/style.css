@@ -21,13 +21,16 @@ ul, ol{
     margin-bottom: 0;
     padding-left: 0;
 }
-
+img {
+    display: block;
+}
 .container { 
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 156px;
     margin-right: 156px;
+    margin: 0 auto;
     /* border: 1px solid red; */
 }
 .visually-hidden {
@@ -75,8 +78,10 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none
+    text-decoration: none;
+    margin-right: 76px;
 }
+
 .second-logo-word-foot {
     color: #f4f4fd;
     font-size: 18px;
@@ -262,11 +267,13 @@ display: flex;
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-navigation {
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
+    align-items: center;
 }
 .address-list {
     gap: 40px;
