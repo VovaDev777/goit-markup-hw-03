@@ -139,7 +139,9 @@ display: flex;
     /* width: 1440px; */
 }
 .footer-text {
-    color: #F4F4FD
+    color: #F4F4FD;
+    width: 264px;
+    
 }
 .portfolio-menu {
     color:  #4D5AE5;
@@ -307,7 +309,7 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 .names-worker {
-   padding: ;
+   
 }
 .stuff {
     padding-bottom: 120px;
