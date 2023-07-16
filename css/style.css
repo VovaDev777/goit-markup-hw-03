@@ -156,7 +156,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.04em;
     /* padding-bottom: 120px; */
-    padding: 96px 0 120px 0
+    padding: 96px 0 120px 0;
 }
 .people-list {
     background-color: #F4F4FD;
