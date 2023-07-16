@@ -155,7 +155,8 @@ display: flex;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
+    padding: 96px 0 120px 0
 }
 .people-list {
     background-color: #F4F4FD;
@@ -362,7 +363,7 @@ letter-spacing: 0.02em;
     gap: 40px;
 }
 .portfolio-nav-container {
-    padding-top: 96px;
+    /* padding-top: 96px; */
     padding-bottom: 72px;
     display: flex;
     justify-content: center;
