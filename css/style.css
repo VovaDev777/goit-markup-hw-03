@@ -196,6 +196,7 @@ display: flex;
     color: #FFFFFF;
     background-color: #404BBF;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 .image-list {
     list-style: none;
