@@ -106,7 +106,7 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style: none;
-    text-decoration:none
+    text-decoration:none;
 }
 .link-word:hover,
 .link-word:focus {
