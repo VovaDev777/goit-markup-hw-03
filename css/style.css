@@ -68,7 +68,13 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none
+    text-decoration: none;
+    margin-right: 76px;
+    display: inline-block;
+    /* margin-bottom: 16px; */
+}
+.footer-logo {
+    margin-bottom: 16px;
 }
 .second-logo-word {
     color: #2E2F42;
@@ -79,7 +85,7 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 
 .second-logo-word-foot {
@@ -239,6 +245,7 @@ display: flex;
     font-style: normal;
     letter-spacing: 0.02em;
     font-weight: 500;
+    padding: 24px 0;
     
 }
 .list-menu:hover,
@@ -349,12 +356,11 @@ letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
 .footer-container {
-    padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
-.footer-text {
+/* .footer-text {
     margin-top: 17.5px;
-}
+} */
 .portfolio-nav-list {
     display: flex;
     gap: 24px;
@@ -376,5 +382,7 @@ letter-spacing: 0.02em;
     display: flex;
 }
 .description-container {
-    margin: 32px 16px;
+    /* margin: 32px 16px; */
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
