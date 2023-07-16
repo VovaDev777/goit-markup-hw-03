@@ -357,17 +357,20 @@ letter-spacing: 0.02em;
 .portfolio-nav-list {
     display: flex;
     gap: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 .portfolio-navigation {
     display: flex;
     gap: 40px;
 }
-.portfolio-nav-container {
-    /* padding-top: 96px; */
+/* .portfolio-nav-container {
+    padding-top: 96px;
     padding-bottom: 72px;
     display: flex;
     justify-content: center;
-}
+} */
 .img-portfolio-list {
     display: flex;
 }
