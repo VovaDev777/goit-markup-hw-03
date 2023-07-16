@@ -54,7 +54,8 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    /* padding-bottom: 72px; */
+    margin-bottom: 72px; 
 
 }
 footer {
@@ -133,11 +134,15 @@ footer {
     letter-spacing: 0.04em;
     padding: 16px 32px;
     border-radius: 4px;
-background: var(--iris, #4D5AE5);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-margin: 0 auto;
-margin-top: 48px;
-display: flex;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    margin-top: 48px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
 }
 .order-button:hover,
 .order-button:focus {
@@ -166,7 +171,8 @@ display: flex;
 }
 .people-list {
     background-color: #F4F4FD;
-    padding-top: 120px;
+    /* padding-top: 120px; */
+    padding: 120px 0;
 }
 .list-work {
     background-color: #FFFFFF;
@@ -179,6 +185,7 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .worker-description {
     color:  #434455;
@@ -258,6 +265,7 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .header-container {
     display: flex;
@@ -291,7 +299,7 @@ display: flex;
     
 }
 .solution {
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     color: #FFF;
     text-align: center;
@@ -339,15 +347,16 @@ letter-spacing: 0.02em;
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
 .names-worker {
    
 }
 .stuff {
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 .names-list {
-    padding: 32px 0;
+    padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
     background: var(--white, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -356,7 +365,7 @@ letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
 .footer-container {
-    padding: 100px 0;
+    /* padding: 100px 0; */
 }
 /* .footer-text {
     margin-top: 17.5px;
@@ -385,4 +394,8 @@ letter-spacing: 0.02em;
     /* margin: 32px 16px; */
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.footer-info {
+    padding: 100px 0;
 }
